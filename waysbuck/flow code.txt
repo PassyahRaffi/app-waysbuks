@@ -1,0 +1,53 @@
+front end case
+
+back end pondasi struktur
+user
+case#1
+1. order
+2. masuknya kemana? cart, api-nya apa, data basenya apa
+3. masuk hal. transaction
+my cart listnya apa order atau apa, ngambilnya gimana
+
+case#2
+1. order lebih dari 2x / 3x
+2. masuk ke cart,
+3. masuk transaction
+my cart mengambil list cart status apa, atau data basenya apa
+4. my cart yg sebelumnya udh dibayar muncul di listcart sebelumnya atau gimana, kalau tidak muncul di my cart solusinya gimana?
+
+flow order
+
+
+-halaman product 
+	-click product ->halaman detail product
+
+-halaman detail product
+	-click topping yang ingin di pilih
+		-bisa lebih dari satu topping
+		-dibuat list topping apa saja yang di pilih
+	-click add card
+		-tampilan card di ponjok kanan atas, jumlahnya bertambah
+		-setelah clik add card -> halaman my card
+
+-halaman my card
+	-isi form yang di butuhkan (nama, alamat, tlpn, dll )
+	-apakah bukti pembayran itu wajib di isi ?
+		-wajib
+			-bukti pebyaran seperti apa ?
+			-pebyaran ref nya kemana ? ( no.rek, ovo, gopay , pebayaran langsung)
+			-kalu pebayran langsung, cara bukti pebayaran nya seperti apa ?
+
+		-tidak wajib
+			-tidak perlu bukti pebyaran.
+			-user sudah bayar langsung di kasir
+	-review my card
+		-get list card order yang sudah di pesan
+		-action delete order yang sebelum nya sudah di pesan
+		-menampilkan topping yang dipilih sebelum nya
+	-menampilkan subtotal dari orderan yang sudah dipesan.
+	-menampilkan total qty dari orderan yang sudah dipesan.
+	-menampilkan total.
+	-menampilakn modal alert jika clik button pay
+
+
+flow di atas hampir sma -> flowchat

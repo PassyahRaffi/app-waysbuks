@@ -1,0 +1,3 @@
+ctrl + z = undo
+
+ctrl + y = maju 1 step

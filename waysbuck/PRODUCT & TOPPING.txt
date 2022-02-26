@@ -1,0 +1,25 @@
+#PRODUCT
+Ice Coffee Palm Sugar = 27000
+Ice Coffee Green Tea = 31000
+Hanami Latte = 29000
+Clepon Coffee = 28000
+
+#TOPPING
+Bubble Tea Gelatin = 2500
+Manggo = 4000
+Green Coconut = 3500
+Boba Manggo = 3000
+Bill Berry Boba = 4000
+Kiwi Popping Pearl = 3500
+Matcha Cantaloupe = 3000
+Strawberry Popping = 3500
+
+
+require login register done
+home page done
+add topping add product done
+detail done
+add chart
+payment
+update transactions
+profile
