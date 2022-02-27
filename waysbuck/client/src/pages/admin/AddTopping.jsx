@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 // import { globalTitle } from "../../components/App";
-import { Mango, UploadIcon } from "../../exports/exportImage";
+import { Manggo, UploadIcon } from "../../exports/exportImage";
 import { API } from "../../config/api";
 import { useState } from "react";
 

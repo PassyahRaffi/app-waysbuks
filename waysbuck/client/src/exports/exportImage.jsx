@@ -5,14 +5,15 @@ import HanamiLatte from "../assets/images/product/Prod3.png";
 import CleponCoffee from "../assets/images/product/Prod4.png";
 import MenuHeaderBg from "../assets/images/bg/bg-1.png";
 import MenuHeaderFr from "../assets/images/bg/bg-2.png";
-import BubbleTeaGelatin from "../assets/images/toppings/toping1.png";
-import Mango from "../assets/images/toppings/toping2.png";
-import GreenCoconut from "../assets/images/toppings/toping3.png";
-import BobaMango from "../assets/images/toppings/toping4.png";
-import BillBerryBoba from "../assets/images/toppings/toping5.png";
-import KiwiPoppingPearl from "../assets/images/toppings/toping6.png";
-import MatchaCantaloupe from "../assets/images/toppings/toping7.png";
-import StrawberryPopping from "../assets/images/toppings/toping8.png";
+import NoneTopping from "../assets/images/toppings/toping1.png"
+import BubbleTeaGelatin from "../assets/images/toppings/toping2.png";
+import Manggo from "../assets/images/toppings/toping3.png";
+import GreenCoconut from "../assets/images/toppings/toping4.png";
+import BobaManggo from "../assets/images/toppings/toping5.png";
+import BillBerryBoba from "../assets/images/toppings/toping6.png";
+import KiwiPoppingPearl from "../assets/images/toppings/toping7.png";
+import MatchaCantaloupe from "../assets/images/toppings/toping8.png";
+import StrawberryPopping from "../assets/images/toppings/toping9.png";
 import QrCode from "../assets/images/mix/qr-code.png";
 import UserImg from "../assets/images/mix/profile.png";
 import Attach from "../assets/images/mix/invoices 1.png";
@@ -34,10 +35,11 @@ export {
   CleponCoffee,
   MenuHeaderBg,
   MenuHeaderFr,
+  NoneTopping,
   BubbleTeaGelatin,
-  Mango,
+  Manggo,
   GreenCoconut,
-  BobaMango,
+  BobaManggo,
   BillBerryBoba,
   KiwiPoppingPearl,
   MatchaCantaloupe,

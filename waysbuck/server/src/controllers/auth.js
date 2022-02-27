@@ -50,7 +50,8 @@ exports.register = async (req, res) => {
       fullname: req.body.fullname,
       email: req.body.email,
       password: hashedPassword,
-      status: "customer"
+      status: "customer",
+      // profile
     });
 
     const newProfile = await tb_profile.create({

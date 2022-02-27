@@ -25,6 +25,8 @@ import AdminRoute from "./components/auth/AdminRoute";
 import CustomerRoute from "./components/auth/CustomerRoute";
 import { API, setAuthToken } from "./config/api";
 
+export const globalTitle = "Waysbucks Store | ";
+
 if (localStorage.token) {
   setAuthToken(localStorage.token);
 }
@@ -70,7 +72,6 @@ export default function App() {
 
       // Get user data
       let payload = response.data.data.user;
-      // console.log(payload);
       // Get token from local storage
       payload.token = localStorage.token;
 
@@ -103,7 +104,6 @@ export default function App() {
           <Route exact path="/product/:id" element={<ProductDetail />} />
 
           <Route exact path="/" element={<CustomerRoute />}>
-            <Route exact path="/profile/:fullname" element={<ProfilePage />} />
             <Route
               exact
               path="/cart"
@@ -113,6 +113,7 @@ export default function App() {
                 </CartModalProvider>
               }
             />
+            <Route exact path="/profile/:fullname" element={<ProfilePage />} />
           </Route>
 
           <Route exact path="/" element={<AdminRoute />}>
